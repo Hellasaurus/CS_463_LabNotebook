@@ -10,12 +10,32 @@
 
 /* Use attribute selectors for the first part of the exercise */
 
-li[class] {
-  color: var(--red);
+li:not([class]) {
+  color: var(--teal);
+}
+
+li[class*="d"] {
+  color: var(--royalblue);
+}
+
+li[class$="og"] {
+  color: var(--violet);
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
 
 section li {
-  color: var(--green);
+  color: green;
+}
+
+.list-food li:nth-child(2n + 2) {
+  color: var(--violet);
+}
+
+.list-food li:nth-last-child(2) {
+  color: var(--royalblue);
+}
+
+.list-cleaning > ol > * {
+  color: green;
 }

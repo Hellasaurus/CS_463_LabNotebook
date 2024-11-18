@@ -1,6 +1,40 @@
+body {
+  margin: 0;
+}
+section {
+  padding: 8px;
+}
+
+header nav * {
+  background-color: black;
+  color: whitesmoke;
+  padding: 8px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+@media (min-width: 0px) {
+  body {
+    background: darkmagenta;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background: darkgoldenrod;
+    color: var(--black);
+  }
+
+  nav ul {
+    display: flex;
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     background: var(--green);
-    color: var(--white);
+    color: whitesmoke;
   }
 }
