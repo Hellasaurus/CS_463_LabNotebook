@@ -1,10 +1,16 @@
 const formatItems = (input) => {
   // return a string of the concatenated numbers, separated by commas and with three digits after the decimal point
+  let output = ""
 
   // for reference, see the MDN Number page:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+  for (let index = 0; index < input.length; index++) {
+    output += input[index].toLocaleString(undefined, {maximumFractionDigits:3,minimumFractionDigits:3});
+    (input.length -1 -index) ? output += ", " : {}
+    
+  }
 
-  return input;
+  return output;
 };
 
 console.log(formatItems([1, 4, 17, 26, 41]));
