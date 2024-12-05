@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/07-javascript/05-destructuring.js"
+            "program": "${workspaceFolder}/07-javascript/07-functional.js"
         }
     ]
 }

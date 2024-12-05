@@ -5,44 +5,45 @@
 }
 
 /* Grid Container 1 */
-.grid-container-1{
+.grid-container-1 {
   grid-template-columns: 100px auto auto;
 }
 
-
-
 /* Grid Container 2 */
-.grid-container-2{
+.grid-container-2 {
   height: 400px;
   grid-template-columns: auto 400px auto auto;
   grid-template-rows: 100px auto;
-  
 }
 
 /* use height: 400px; on the container */
 
 /* Grid Container 3 */
-.grid-container-3{
+.grid-container-3 {
   height: 400px;
-  grid-template-columns: 
-  80px auto auto;
-  grid-template-rows: 
-  80px auto auto;
+  grid-template-columns: 80px auto auto;
+  grid-template-rows: 80px auto auto;
 }
-.grid-container-3 .item8{
+.grid-container-3 .item8 {
   grid-column: 2 / 4;
 }
 /* use height: 400px; on the container */
 
 /* Grid Container 4 */
-.grid-container-4{
+.grid-container-4 {
   height: 600px;
   grid-template-columns: 200px auto;
   grid-auto-flow: row;
 }
-.grid-container-4 .item1{ grid-row: 1 /3;}
+.grid-container-4 .item1 {
+  grid-row: 1 /3;
+}
 
-.grid-container-4 .item6{grid-column: 1/3}
-.grid-container-4 .item7{}
-.grid-container-4 .item8{}
+.grid-container-4 .item6 {
+  grid-column: 1/3;
+}
+.grid-container-4 .item7 {
+}
+.grid-container-4 .item8 {
+}
 /* use height: 600px; on the container */

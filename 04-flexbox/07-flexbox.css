@@ -1,17 +1,16 @@
 .flex-container {
   background-color: rgb(190, 190, 231);
-  display: flex
+  display: flex;
 }
 
 /* Flex Container 1 */
-.flex-container-1  {
+.flex-container-1 {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
 }
 
-.flex-container > .flex-item 
-{
+.flex-container > .flex-item {
   padding-bottom: 2.5em;
   min-width: 160px;
 }
@@ -28,10 +27,7 @@
   flex-direction: column-reverse;
   height: 600px;
   justify-content: space-between;
-
-
 }
-
 
 /* use height: 400px; on the container */
 
@@ -40,7 +36,6 @@
   flex-wrap: wrap-reverse;
   justify-content: space-around;
 }
-
 
 /* Flex Container 6 */
 .flex-container-6 {
@@ -53,7 +48,6 @@
   padding-left: 0px;
   padding-right: 0px;
   min-width: 30%;
-  
 }
 /* Flex Container 5 */
 
@@ -62,7 +56,6 @@
   flex-wrap: wrap;
   flex-direction: column;
   height: 300px;
-
 }
 
 .flex-container-5 .flex-item {
@@ -72,21 +65,21 @@
   min-width: 0px;
   min-height: 0px;
 }
-.flex-container-5 .item1, 
+.flex-container-5 .item1,
 .flex-container-5 .item3,
-.flex-container-5 .item6{
-  flex-basis: 240px ;
+.flex-container-5 .item6 {
+  flex-basis: 240px;
   margin-top: 30px;
 }
-.flex-container-5 .item2, 
-.flex-container-5 .item8{
-  flex-basis: 300px ;
+.flex-container-5 .item2,
+.flex-container-5 .item8 {
+  flex-basis: 300px;
 }
 
-.flex-container-5 .item4, 
+.flex-container-5 .item4,
 .flex-container-5 .item5,
-.flex-container-5 .item7{
-  flex-basis: 180px ;
+.flex-container-5 .item7 {
+  flex-basis: 180px;
   margin-top: 60px;
 }
 

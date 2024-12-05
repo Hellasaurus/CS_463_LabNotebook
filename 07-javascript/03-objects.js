@@ -14,23 +14,22 @@ const deleteItem = (key) => {
 
 const lookupItem = (key) => {
   // return the value from result that is associated with key
-  return (result[key])? result[key] : 'Item does not exist';
-
+  return result[key] ? result[key] : "Item does not exist";
 };
 
 const printItems = () => {
   // return a string of the concatenated key in result, separated by commas
-  let out = ""
-  let keys = Object.keys(result)
-  const mylen = keys.length
+  let out = "";
+  let keys = Object.keys(result);
+  const mylen = keys.length;
 
-  for (let index = 0; index < mylen; index++){
+  for (let index = 0; index < mylen; index++) {
     out += keys[index];
-    (mylen - 1 - index) ? out += ', ':{};
+    // add a comma if not the last index
+    mylen - 1 - index ? (out += ", ") : {};
   }
 
   return out;
-
 };
 
 insertItem("hello", "world");
