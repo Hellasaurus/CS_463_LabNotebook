@@ -25,7 +25,7 @@ const printItems = () => {
 
   for (let index = 0; index < mylen; index++) {
     out += keys[index];
-    // add a comma if not the last index
+    // add a comma if not the last inde
     mylen - 1 - index ? (out += ", ") : {};
   }
 
